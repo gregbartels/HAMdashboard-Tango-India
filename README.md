@@ -1,4 +1,4 @@
-                                                                             ### HAM DASHBOARD TANGO INDIA
+ ## HAM DASHBOARD TANGO INDIA
 
 EL primer dashboard gratuito  para todos los radioaficionados en zona TI
 
