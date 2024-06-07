@@ -1,6 +1,6 @@
  ## HAM DASHBOARD TANGO INDIA
 
-EL primer dashboard gratuito  para todos los radioaficionados en zona TI
+EL primer dashboard gratuito  para todos los radioaficionados en zona TI lanzado por TI3GB
 
 Este proyecto es una modificación del [HAMdashboard](https://github.com/VA3HDL/hamdashboard) original de VA3HDL, reutilizado con su aprobación.  Este proyecto se distribuye bajo la misma licencia.
 
