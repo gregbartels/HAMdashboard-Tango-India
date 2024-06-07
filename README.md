@@ -2,6 +2,8 @@
 
 EL primer dashboard gratuito  para todos los radioaficionados en zona TI
 
+Este proyecto es una modificación del [HAMdashboard](https://github.com/VA3HDL/hamdashboard) original de VA3HDL, reutilizado con su aprobación.  Este proyecto se distribuye bajo la misma licencia.
+
 
 ![image](https://github.com/gregbartels/HAMdashboard-Tango-India/assets/78452640/60b7dc0c-89b4-4f51-8ae3-883bb6c6c0f6)
 
