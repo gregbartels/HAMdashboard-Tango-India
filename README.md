@@ -1,4 +1,4 @@
-HAM DASHBOARD TANGO INDIA
+                                                                             ### HAM DASHBOARD TANGO INDIA
 
 EL primer dashboard gratuito  para todos los radioaficionados en zona TI
 
@@ -51,12 +51,12 @@ Hay muy poco que se puede hacer del lado del cliente si el sitio fuente no permi
 
 Como solución para estos problemas, he probado ejecutar un proxy local en mi computadora para eliminar la cabecera x-frame-options que viene del servidor fuente y funcionó bien en algunos casos. Pero configurar un proxy añade otra capa de complejidad a la configuración.
 
-Actualizaciones
-Registro de cambios 2024.05.27:
+## Actualizaciones
+# Registro de cambios 2024.05.27:
 Se movieron las partes de configuración del código JavaScript a su propio archivo "config.js" para que sea fácil de actualizar después de actualizaciones al código principal. Sugerido por Lou KI5FTY.
 Mejora en la usabilidad del menú.
 
-Registro de cambios 2024.05.25:
+# Registro de cambios 2024.05.25:
 Se eliminaron dependencias de fuentes instaladas localmente. Las fuentes ahora se cargan directamente desde Google Fonts para garantizar la consistencia.
 Capacidad de añadir múltiples imágenes por posición. Las imágenes se rotan automáticamente cada 30 segundos.
 La actualización automática ahora se pausa automáticamente al cambiar a un sitio web (desde el menú) o cuando una imagen se amplía a pantalla completa.
