@@ -17,7 +17,7 @@ Presentacion del proyecto ( idioma ingles)
 ### Instrucciones:
 1. Simplemente descargue los archivos del repositorio de Github (hamdash.html, config.js y wheelzoom.js) y manténgalos juntos en la misma carpeta.
 2.  Abra el archivo config.js con cualquier editor de texto (como el Bloc de notas)
-3.  en la linea #1, modifique ###const topBarCenterText = `TI3GB - EJ89AU`;    por su callsing y Grilla ( Grid).
+3.  en la linea #1, modifique ###const topBarCenterText = `TI3GB - EJ89AU`;    por su callsing y Grilla ( Grid). Guarde los cambios.
 
 5. Abre hamdash.html con cualquier navegador de tu preferencia y listo.
 6. Con cualquier editor de texto (como el Bloc de notas) puede cambiar las imágenes de origen (pueden ser más de una por cuadro) o las opciones de menú del archivo config.js.
