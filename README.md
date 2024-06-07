@@ -16,7 +16,7 @@ Presentacion del proyecto ( idioma ingles)
 
 ### Instrucciones:
 1. Simplemente descargue los archivos del repositorio de Github (hamdash.html, config.js y wheelzoom.js) y manténgalos juntos en la misma carpeta.
-2.  Abra el archivo config.js con cualquier editor de texto (como el Bloc de notas) y la linea #1 cambie ![image](https://github.com/gregbartels/HAMdashboard-Tango-India/assets/78452640/e3a66b72-882f-47bd-ba10-68f52b718379) por su callsing y Grilla ( Grid)
+2.  Abra el archivo config.js con cualquier editor de texto (como el Bloc de notas) y en la linea #1 modifique ###const topBarCenterText = `TI3GB - EJ89AU`;    por su callsing y Grilla ( Grid).
 
 3. Abre hamdash.html con cualquier navegador de tu preferencia y listo.
 4. Con cualquier editor de texto (como el Bloc de notas) puede cambiar las imágenes de origen (pueden ser más de una por cuadro) o las opciones de menú del archivo config.js.
