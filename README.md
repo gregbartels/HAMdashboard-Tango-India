@@ -59,6 +59,9 @@ Como solución para estos problemas, he probado ejecutar un proxy local en mi co
 
 ## Actualizaciones
 
+Si desea actualizar a la última versión, el único archivo que necesita actualizar es **hamdash.html** (no sobrescriba su archivo config.js).
+
+
 # Registro de cambios 2024.06.09:
 
 Actualizacion del codigo para soportar videos  por VA3HDL
