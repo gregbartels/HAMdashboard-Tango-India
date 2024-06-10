@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <title>VA3HDL Ham Radio Dashboard</title>
+    <title>Tango India Dashboard</title>
     <!--
 	Hamdash
 	License: MIT
@@ -527,31 +527,31 @@ db   8D Y8b  d8 88 `88.   .88.   88         88    db   8D
     }
 
     // This function update the time on the top bar
-    function updateTopBar() {
-      const now = new Date();
-      const localDate = now.toLocaleDateString("en-US", {
-        weekday: "long",
-        month: "long",
-        day: "numeric",
-      });
-      const localTime = now.toLocaleTimeString("en-US", {
-        hour12: true,
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        timeZoneName: "short",
-      });
+function updateTopBar() {
+  const now = new Date();
+  const localDate = now.toLocaleDateString("es-ES", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
+  const localTime = now.toLocaleTimeString("es-ES", {
+    hour12: true,
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    timeZoneName: "short",
+  });
 
-      const utcDate = now.toISOString().slice(0, 10);
-      const utcTime = now.toISOString().slice(11, 19) + " UTC";
+  const utcDate = now.toISOString().slice(0, 10);
+  const utcTime = now.toISOString().slice(11, 19) + " UTC";
 
-      const topBarLeft = document.getElementById("topBarLeft");
-      topBarLeft.textContent = `${localDate} - ${localTime}`;
-      const topBarCenter = document.getElementById("topBarCenter");
-      topBarCenter.textContent = topBarCenterText;
-      const topBarRight = document.getElementById("topBarRight");
-      topBarRight.textContent = `${utcDate} ${utcTime}`;
-    }
+  const topBarLeft = document.getElementById("topBarLeft");
+  topBarLeft.textContent = `${localDate} - ${localTime}`;
+  const topBarCenter = document.getElementById("topBarCenter");
+  topBarCenter.textContent = topBarCenterText;
+  const topBarRight = document.getElementById("topBarRight");
+  topBarRight.textContent = `${utcDate} ${utcTime}`;
+}
 
     // Update every second
     setInterval(updateTopBar, 1000);
