@@ -58,6 +58,16 @@ Hay muy poco que se puede hacer del lado del cliente si el sitio fuente no permi
 Como solución para estos problemas, he probado ejecutar un proxy local en mi computadora para eliminar la cabecera x-frame-options que viene del servidor fuente y funcionó bien en algunos casos. Pero configurar un proxy añade otra capa de complejidad a la configuración.
 
 ## Actualizaciones
+
+Si desea actualizar a la última versión, el único archivo que necesita actualizar es **hamdash.html** (no sobrescriba su archivo config.js).
+
+
+# Registro de cambios 2024.06.09:
+
+Actualizacion del codigo para soportar videos  por VA3HDL
+
+
+
 # Registro de cambios 2024.05.27:
 Se movieron las partes de configuración del código JavaScript a su propio archivo "config.js" para que sea fácil de actualizar después de actualizaciones al código principal. Sugerido por Lou KI5FTY.
 Mejora en la usabilidad del menú.
