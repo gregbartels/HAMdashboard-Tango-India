@@ -39,26 +39,6 @@ Video de configuracion ( EN INGLES) Proximamente en idioma español por  TI3GB
 
 Agradecimientos especiales a Pablo, VA3HDL por su apoyo y dedicacion en este proyecto al compartirlo con otros radioaficionados.
 
-Solución para problemas de incrustación de Pi-Star en iFrame:
-Este error puede ocurrir si el servidor tiene ciertas medidas de seguridad, como la cabecera x-frame-options, que evita que su contenido se incruste en otros sitios web mediante iframes.
-
-Inicia sesión en Pi-Star vía SSH y luego ejecuta este comando para cambiar al modo de lectura/escritura:
-
-# rpi-rw
-En el archivo /etc/nginx/default.d/security.conf comenta la línea a continuación con un "#" al frente, así:
-
-
- # add_header X-Frame-Options  "SAMEORIGIN";
- 
-Ejecuta este comando para volver al modo de solo lectura:
-
- # rpi-ro
-Luego reinicia el Pi-Star.
-
-Más sobre la incrustación en iFrame:
-Hay muy poco que se puede hacer del lado del cliente si el sitio fuente no permite incrustar el sitio dentro de otra página (como el panel de control), especialmente si el usuario no puede cambiar la configuración del servidor (la mayoría de los casos).
-
-Como solución para estos problemas, he probado ejecutar un proxy local en mi computadora para eliminar la cabecera x-frame-options que viene del servidor fuente y funcionó bien en algunos casos. Pero configurar un proxy añade otra capa de complejidad a la configuración.
 
 ## Actualizaciones
 
